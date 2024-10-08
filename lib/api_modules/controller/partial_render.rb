@@ -13,7 +13,7 @@ module ApiModules
       private
 
       def partial_path(klass, path)
-        "#{path}/models/#{klass}"
+        "#{path}models/#{klass}"
       end
 
       # @return [String] クラスのモジュール情報を元にパスを作成
