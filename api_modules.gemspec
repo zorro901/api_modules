@@ -23,9 +23,11 @@ Gem::Specification.new do |spec|
       "public gem pushes."
   end
 
+  spec.required_ruby_version = ">= 3.1.0"
+
   spec.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.add_dependency "rails", "> 5.2.2"
+  spec.add_dependency "rails", "~> 7.2"
 
   spec.add_development_dependency "sqlite3"
 end
